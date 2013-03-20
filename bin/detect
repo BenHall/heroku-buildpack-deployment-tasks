@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -f $1/deploy/pre-deploy.sh ]; then
+if [ -f $1/deploy/pre-deploy ]; then
   exit 0
 else
   exit 1
